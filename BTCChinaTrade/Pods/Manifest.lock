@@ -1,0 +1,45 @@
+PODS:
+  - AFJSONRPCClient (1.0.0):
+    - AFNetworking (~> 1.3)
+  - AFNetworking (1.3.3)
+  - Appirater (2.0.2)
+  - Mantle (1.3.1):
+    - Mantle/extobjc
+  - Mantle/extobjc (1.3.1)
+  - MBProgressHUD (0.8)
+  - MPColorTools (1.4.1)
+  - REFormattedNumberField (1.1.1)
+  - RETableViewManager (1.5.7):
+    - REFormattedNumberField (~> 1.1.1)
+    - REValidation (~> 0.1.4)
+  - REValidation (0.1.4)
+  - UIActionSheet+Blocks (0.7)
+  - UIAlertView+Blocks (0.7)
+  - UICKeyChainStore (1.0.4)
+
+DEPENDENCIES:
+  - AFJSONRPCClient (~> 1.0.0)
+  - Appirater (~> 2.0.2)
+  - Mantle (~> 1.3.1)
+  - MBProgressHUD (~> 0.8)
+  - MPColorTools (~> 1.4.1)
+  - RETableViewManager (~> 1.5.7)
+  - UIActionSheet+Blocks (~> 0.7)
+  - UIAlertView+Blocks (~> 0.7)
+  - UICKeyChainStore (~> 1.0.4)
+
+SPEC CHECKSUMS:
+  AFJSONRPCClient: fe78f4098e43cd92d023917d44597a8174a4933c
+  AFNetworking: 61fdd49e2ffe6380378df37b3b6e70630bb9dd66
+  Appirater: 32fb9089615b5e542c7ad7b5749741a8aed55290
+  Mantle: abc3b0c81bc66eb624cf9cebb8640e377d5a44ae
+  MBProgressHUD: 2bbc6f470111daf7f3eaa4eb12b8cbf01c4c0622
+  MPColorTools: f58e73f5c351d22fb950948cdb60521a8cb924ea
+  REFormattedNumberField: 53db6b5097b02f608999b7c95ec8ccda95be93be
+  RETableViewManager: 1a416f4d862934c8d998827c221158d596da243c
+  REValidation: 02160035110a63af1bf6ad1b8791837b3fa13584
+  UIActionSheet+Blocks: 18f5e0516e494d005ddafdbaf373edeafd9445c9
+  UIAlertView+Blocks: 7e876c2bace976306640443745b57912565d840d
+  UICKeyChainStore: b42c6252b8bfd7fbf6326668467572b6b231e11a
+
+COCOAPODS: 0.28.0
