@@ -1,0 +1,54 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+// system
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <MobileCoreServices/MobileCoreServices.h>
+#import <CommonCrypto/CommonHMAC.h>
+
+// cocoapods
+#import <AFJSONRPCClient/AFJSONRPCClient.h>
+#import <Mantle/Mantle.h>
+#import <UICKeyChainStore/UICKeyChainStore.h>
+#import <Appirater/Appirater.h>
+#import <UIActionSheet+Blocks/UIActionSheet+Blocks.h>
+#import <UIAlertView+Blocks/UIAlertView+Blocks.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+#import <MPColorTools/MPColorTools.h>
+#import <RETableViewManager/RETableViewManager.h>
+
+// bundle
+#import "BCTradeAPIKit.h"
+#import "BTDataManager.h"
+#import "DHActionManager.h"
+#import "FBEncryptorAES.h"
+#import "MobClick.h"
+#import "DAAppsViewController.h"
+
+#endif
+
+#define kAppStoreID @"780356963"
+#define kUmengKey @"52a95b3c56240b90330f3249"
+
+/*
+ *  System Versioning Preprocessor Macros
+ */
+
+#define SYSTEM_VERSION_EQUAL_TO(v)                  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedSame)
+#define SYSTEM_VERSION_GREATER_THAN(v)              ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedDescending)
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending)
